@@ -1,6 +1,6 @@
 window.opener = localStorage.getItem("opener") || "Kako ovo radi, jesmo li sad u vezi? :3";
 
-window.bot = {
+window.bot =  {
 	getChat: function(id){
 		var url = "/api.phtml?SERVER_OPEN_MESSENGER";
 
